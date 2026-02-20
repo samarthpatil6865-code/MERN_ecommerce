@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
           {/* Brand */}
           <div className="space-y-4">
             <Link to="/" className="text-2xl font-bold text-primary">
-              Spot
+              Deshmukha
             </Link>
             <p className="text-sm text-muted-foreground">
               Your one-stop shop for quality products at great prices.
@@ -43,14 +43,19 @@ const Footer: React.FC = () => {
             </ul>
           </div>
 
-          {/* Customer Service */}
+          {/* Contact Info */}
           <div>
-            <h3 className="font-semibold mb-4">Customer Service</h3>
+            <h3 className="font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <span className="text-muted-foreground hover:text-foreground cursor-pointer">
-                  Contact Us
-                </span>
+                <a href="mailto:deshmukhomkar788@gmail.com" className="text-muted-foreground hover:text-foreground">
+                  deshmukhomkar788@gmail.com
+                </a>
+              </li>
+              <li>
+                <a href="tel:9371449288" className="text-muted-foreground hover:text-foreground">
+                  +91 93714 49288
+                </a>
               </li>
               <li>
                 <span className="text-muted-foreground hover:text-foreground cursor-pointer">
@@ -60,11 +65,6 @@ const Footer: React.FC = () => {
               <li>
                 <span className="text-muted-foreground hover:text-foreground cursor-pointer">
                   Returns & Refunds
-                </span>
-              </li>
-              <li>
-                <span className="text-muted-foreground hover:text-foreground cursor-pointer">
-                  FAQ
                 </span>
               </li>
             </ul>
@@ -90,7 +90,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="mt-12 pt-8 border-t text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Spot E-Commerce. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Deshmukha E-Commerce. All rights reserved.</p>
         </div>
       </div>
     </footer>

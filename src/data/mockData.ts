@@ -218,7 +218,7 @@ export const mockOrders: Order[] = [
 ];
 
 export const mockUsers = [
-  { id: '1', name: 'John Doe', email: 'john@example.com', role: 'user' as const },
+  { id: '1', name: 'John Doe', email: 'hariom@example.com', role: 'user' as const },
   { id: '2', name: 'Jane Smith', email: 'jane@example.com', role: 'user' as const },
   { id: '3', name: 'Admin User', email: 'admin@example.com', role: 'admin' as const },
 ];

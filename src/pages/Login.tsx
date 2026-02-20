@@ -97,7 +97,7 @@ const Login: React.FC = () => {
               <div className="mt-6 p-4 bg-muted rounded-lg">
                 <p className="text-sm font-medium mb-2">Demo Accounts:</p>
                 <div className="text-xs text-muted-foreground space-y-1">
-                  <p>User: john@example.com</p>
+                  <p>User: hariom@example.com</p>
                   <p>Admin: admin@example.com</p>
                   <p>Password: any 6+ characters</p>
                 </div>

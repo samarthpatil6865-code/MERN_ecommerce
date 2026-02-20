@@ -1,8 +1,10 @@
-# Welcome to your Lovable project
+# Deshmukha Shop Essence
+
+A modern e-commerce platform built with React, TypeScript, and Tailwind CSS.
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+**URL**: https://github.com/samarthpatil6865-code/Deshmukha_ecommerce.git
 
 ## How can I edit this code?
 
